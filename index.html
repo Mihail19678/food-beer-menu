@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f04b12"><title>Food Beer Café — меню</title>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e98706"><title>Food Beer Café — меню</title>
 <style>
-:root{--orange:#f05a20;--gold:#f6b62f;--cream:#fff8ed;--green:#174a35;--ink:#211e1a;--muted:#756d63;--line:#eadfce}
+:root{--orange:#e98706;--gold:#ffb21c;--cream:#fff9f0;--green:#282321;--ink:#211e1a;--muted:#756d63;--line:#eadfce}
 *{box-sizing:border-box}
 body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
-.top{background:var(--green);color:#fff;padding:30px 18px 26px;text-align:center;border-bottom:5px solid var(--gold)}
-.brand{font-size:12px;font-weight:750;letter-spacing:.2em;text-transform:uppercase;color:#f8c84d}
-.top h1{font-family:Georgia,serif;font-size:clamp(34px,8vw,48px);line-height:1;margin:9px 0 8px}
-.top p{margin:0;color:#e5eee8;font-size:15px}
-.switch{display:inline-flex;gap:3px;margin-top:18px;padding:4px;background:#0e3828;border:1px solid #52705f;border-radius:999px}
-.switch button{border:0;border-radius:999px;padding:8px 15px;background:transparent;color:#f7f5ed;font-weight:700;font-size:14px}
+.top{background:var(--cream);color:var(--ink);padding:18px 18px 22px;text-align:center;border-bottom:4px solid var(--gold)}
+.logo{display:block;width:112px;height:108px;object-fit:contain;margin:0 auto 8px}
+.top h1{font-family:Georgia,serif;font-size:clamp(34px,8vw,48px);line-height:1;margin:5px 0 8px}
+.top p{margin:0;color:var(--muted);font-size:15px}
+.switch{display:inline-flex;gap:3px;margin-top:18px;padding:4px;background:#fff;border:1px solid var(--line);border-radius:999px}
+.switch button{border:0;border-radius:999px;padding:8px 15px;background:transparent;color:var(--ink);font-weight:700;font-size:14px}
 .switch button.active{background:var(--gold);color:#241a09}
 .wrap{max-width:700px;margin:0 auto;padding:22px 17px 18px}
 .tabs{display:flex;gap:9px;margin:0 0 22px;border-bottom:1px solid var(--line);padding-bottom:14px}
@@ -20,8 +20,8 @@ body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.5 system-ui,-
 .card{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:16px 3px;box-shadow:none}
 .row{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .name{font-size:18px;font-weight:750;line-height:1.3}
-.price{flex:none;background:var(--green);color:#fff;padding:6px 13px;border-radius:999px;font-size:16px;font-weight:800;white-space:nowrap}
-.unit{font-size:11px;font-weight:650;color:#e6eee8}
+.price{flex:none;background:var(--orange);color:#fff;padding:6px 13px;border-radius:999px;font-size:16px;font-weight:800;white-space:nowrap}
+.unit{font-size:11px;font-weight:650;color:#fff2d8}
 .product-line{display:flex;align-items:center;gap:14px}.product-photo{width:116px;height:116px;flex:none;object-fit:contain;filter:drop-shadow(0 4px 5px rgba(52,35,18,.18));}.product-copy{min-width:0;flex:1}.desc{color:var(--muted);font-size:14px;line-height:1.45;margin:6px 0 0;max-width:530px}
 .extras{margin-top:17px;background:#fff1d5;border:1px solid #f3d993;border-radius:15px;padding:15px 16px}
 .extras h3{margin:0 0 7px;color:var(--green);font-size:17px}
@@ -29,7 +29,7 @@ body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.5 system-ui,-
 .foot{text-align:center;border-top:1px solid var(--line);margin-top:28px;padding:22px 8px 10px;color:var(--muted);font-size:14px}
 .phone{display:inline-block;background:var(--orange);color:white;text-decoration:none;border-radius:999px;padding:12px 24px;font-weight:800;font-size:16px;margin-top:11px}
 .hint{font-size:12px;color:#8a8176;margin:12px 0 0}.foot-details{display:grid;gap:5px;margin-top:15px;font-size:13px}.foot-details strong{color:var(--green)}.instagram{color:var(--green);font-weight:700;text-decoration:none;margin-top:4px;display:inline-block}.instagram:hover{text-decoration:underline}@media(max-width:420px){.product-photo{width:92px;height:92px}.name{font-size:17px}}
-</style></head><body><header class="top"><div class="brand">Food Beer Café · 2018</div><h1 data-ru="Меню" data-ro="Meniu">Меню</h1><p data-ru="Свежая еда и хорошее настроение" data-ro="Mâncare proaspătă și voie bună">Свежая еда и хорошее настроение</p><div class="switch"><button class="active" data-lang="ru">Русский</button><button data-lang="ro">Română</button></div></header>
+</style></head><body><header class="top"><img class="logo" src="logo.png" alt="Food Beer Café"><h1 data-ru="Меню" data-ro="Meniu">Меню</h1><p data-ru="Свежая еда и хорошее настроение" data-ro="Mâncare proaspătă și voie bună">Свежая еда и хорошее настроение</p><div class="switch"><button class="active" data-lang="ru">Русский</button><button data-lang="ro">Română</button></div></header>
 <main class="wrap"><nav class="tabs"><button class="active" data-tab="food" data-ru="Фастфуд" data-ro="Fast-food">Фастфуд</button><button data-tab="pizza" data-ru="Пицца" data-ro="Pizza">Пицца</button></nav><section id="content"></section><div class="foot"><div data-ru="Закажите или уточните наличие по телефону" data-ro="Comandați sau verificați disponibilitatea la telefon">Закажите или уточните наличие по телефону</div><a class="phone" href="tel:060536309">060 536 309</a><div class="foot-details"><div><strong data-ru="Время работы:" data-ro="Program:">Время работы:</strong> 9:00–21:00</div><div><strong data-ru="Адрес:" data-ro="Adresa:">Адрес:</strong> <span data-ru="ул. Юрия Гагарина, 42, Вулканешты, Молдова" data-ro="str. Iurie Gagarin, 42, Vulcănești, Republica Moldova">ул. Юрия Гагарина, 42, Вулканешты, Молдова</span></div><a class="instagram" href="https://www.instagram.com/cafe_food_beer?obrf=MTA0ajFidmZqdHdmaw==" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div></main>
 <script>
 const data={food:{ru:{title:'Фастфуд и напитки',items:[['Картофель фри','25',''],['Шаурма — большая','60','Лаваш, куриное мясо, картофель фри, капуста, морковь, маринованный огурец, чесночный соус.','product-shawarma.png'],['Шаурма — маленькая','45','Лаваш, куриное мясо, картофель фри, капуста, морковь, маринованный огурец, чесночный соус.','product-shawarma.png'],['Дёнер','30','Булочка, куриное мясо, картофель фри, капуста, морковь, маринованный огурец, чесночный соус.','product-doner.png'],['Хот-дог','25','Булочка, свино-говяжья сосиска, капуста, морковь, чесночный соус, кетчуп.','product-hotdog.png'],['Пиво','15',''],['Квас','12','']],extras:'Добавки',extraItems:[['Сыр','+10'],['Грибы','+10'],['Соусы','+5 (сладкий чили, чесночный, кетчуп, майонез)']]},ro:{title:'Fast-food și băuturi',items:[['Cartofi pai','25',''],['Shaorma mare','60','Lipie, carne de pui, cartofi pai, varză, morcov, castravete murat, sos de usturoi.','product-shawarma.png'],['Shaorma mică','45','Lipie, carne de pui, cartofi pai, varză, morcov, castravete murat, sos de usturoi.','product-shawarma.png'],['Doner','30','Chiflă, carne de pui, cartofi pai, varză, morcov, castravete murat, sos de usturoi.','product-doner.png'],['Hot-dog','25','Chiflă, crenvurșt din porc și vită, varză, morcov, sos de usturoi, ketchup.','product-hotdog.png'],['Bere','15',''],['Cvas','12','']],extras:'Extra',extraItems:[['Cașcaval','+10'],['Ciuperci','+10'],['Sosuri','+5 (chili dulce, usturoi, ketchup, maioneză)']]}},pizza:{ru:{title:'Пицца · 80 MDL',items:[['Маргарита','80','Сыр моцарелла, сыр гауда, помидоры, соус для пиццы.','pizza-margherita.png'],['Пицца с беконом','80','Бекон, сыр гауда, грибы, чесночный соус.','pizza-bacon.png'],['Колбасная','80','Колбаса, маслины, сыр гауда, перец, соус для пиццы.','pizza-salami.png'],['Куриная','80','Куриное филе, грибы, перец, сыр гауда, соус для пиццы.','pizza-chicken.png'],['Острая','80','Колбаски кабанос, сыр гауда, оливки, острый перец, соус для пиццы.','pizza-spicy.png']]},ro:{title:'Pizza · 80 MDL',items:[['Pizza Margherita','80','Mozzarella, cașcaval gouda, roșii, sos pentru pizza.','pizza-margherita.png'],['Pizza cu bacon','80','Bacon, cașcaval gouda, ciuperci, sos de usturoi.','pizza-bacon.png'],['Pizza cu salam','80','Salam, măsline, cașcaval gouda, ardei, sos pentru pizza.','pizza-salami.png'],['Pizza cu pui','80','File de pui, ciuperci, ardei, cașcaval gouda, sos pentru pizza.','pizza-chicken.png'],['Pizza picantă','80','Cârnați kabanos, cașcaval gouda, măsline, ardei iute, sos pentru pizza.','pizza-spicy.png']]}}};let lang='ru',tab='food';
